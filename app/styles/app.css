@@ -2,6 +2,10 @@ body {
   background-image: url('https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57a22b68bebafb39c21fb500/1455126604290/seattle+header.jpeg?format=1500w');
 }
 
+.jumbotron {
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
 }

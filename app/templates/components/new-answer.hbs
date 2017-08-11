@@ -9,8 +9,8 @@
       <label for="solution">Your Solution: </label>
       {{input value=solution id="solution"}}
     </div>
-    <button {{action 'saveAnswer'}}>Submit Answer</button>
+    <button class="btn btn-info" {{action 'saveAnswer'}}>Submit Answer</button>
   </form>
 {{else}}
-  <button {{action 'answerFormShow'}}>Contribute Answer</button>
+  <button class="btn btn-info" {{action 'answerFormShow'}}>Contribute Answer</button>
 {{/if}}
