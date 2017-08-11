@@ -3,23 +3,24 @@
     <h1>Code-Help</h1>
   </header>
 
-  <div class="container">
     <div class="row">
-      <div class="col-xs-2">
+      <div class="col-sm-3">
         <nav class="nav navbar">
-          <div class="container nav-list">
-            <h3>{{#link-to 'index'}}Home{{/link-to}}</h3>
-            <h3>{{#link-to 'about'}}About{{/link-to}}</h3>
-            <h3>{{#link-to 'contact'}}Contact{{/link-to}}</h3>
-            <h3>{{#link-to 'new-question'}}Post Question{{/link-to}}</h3>
+          <div class="nav-list">
+            <ul id="navbar-ul">
+              <li class="nav-choice">{{#link-to 'index'}}Home{{/link-to}}</li>
+              <li class="nav-choice">{{#link-to 'about'}}About{{/link-to}}</li>
+              <li class="nav-choice">{{#link-to 'contact'}}Contact{{/link-to}}</li>
+              <li class="nav-choice">{{#link-to 'new-question'}}Post Question{{/link-to}}</li>
+            </ul>
           </div>
         </nav>
       </div>
-      <div class="col-xs-8">
-        {{outlet}}
-      </div>
-      <div class="col-xs-2">
+      <div class="col-sm-9">
+        <div id="main-content">
+          {{outlet}}
+        </div>
       </div>
     </div>
-  </div>
+
 </div>

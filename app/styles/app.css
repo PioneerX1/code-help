@@ -1,13 +1,27 @@
-.nav-list {
-  display: grid;
-  /*grid-template-columns: 0px 20px 20px 20px 20px;
-  grid-template-rows: 5px;
-  grid-gap: 65px;*/
-  /*background-color: lightblue;*/
-  padding-left: 0px;
-
+body {
+  background-image: url('https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57a22b68bebafb39c21fb500/1455126604290/seattle+header.jpeg?format=1500w');
 }
 
 ul {
   list-style-type: none;
+}
+
+#navbar-ul {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #f1f1f1;
+}
+
+.nav-choice {
+  display: block;
+  padding: 8px 16px;
+  font-size: 20px;
+}
+
+#main-content {
+  /*float: left;*/
+  /*position: fixed;*/
+  background-color: #f1f1f1;
+  padding: 10px;
 }
