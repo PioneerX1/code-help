@@ -35,7 +35,9 @@ You will need the following things properly installed on your computer.
 |---|---|---|
 |User sees homepage with a list of question preview tiles.|User clicks on one of the tiles.|User is directed to a details page with more information about that questions, as well as any answers that others have posted.|
 |User is on the question details page.|User chooses to submit an answer comment, by clicking on 'submit answer' below the question and notes.|User sees a form pop up with fields for the answer including author and answer's content.|
-|User is on the answer form.|User fills out author and answer fields and clicks submit answer.|User is then directed back to the home page.|
+|User is on the answer form.|User fills out author and answer fields and clicks submit answer.|Current page is reloaded with their new answer listed.|
+|User is on the question details page.|User clicks update question button up top.|User is presented with the fields from their questions pre-filled out with previously info, which they can then update.|
+|User sees the update question fields.|User changes information in one or more of these fields and clicks submit.|The same question details page reloads with the updated info in the question.|
 |User is on home page again.|User clicks submit a new questions.|User is directed to a form where they can fill out specifics.|
 |User sees question form.|User fills out fields for author, question title, and additional notes, and clicks submit.|User is directed back to index page.|
 
