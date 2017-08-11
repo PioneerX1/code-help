@@ -1,0 +1,13 @@
+.nav-list {
+  display: grid;
+  /*grid-template-columns: 0px 20px 20px 20px 20px;
+  grid-template-rows: 5px;
+  grid-gap: 65px;*/
+  /*background-color: lightblue;*/
+  padding-left: 0px;
+
+}
+
+ul {
+  list-style-type: none;
+}
