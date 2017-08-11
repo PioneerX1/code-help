@@ -1,1 +1,9 @@
 {{question-detail question=model}}
+
+<h3>All Answers for this Question: </h3>
+
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.solution}}<br><em> -posted by: {{answer.author}}</em></li>
+  {{/each}}
+</ul>
